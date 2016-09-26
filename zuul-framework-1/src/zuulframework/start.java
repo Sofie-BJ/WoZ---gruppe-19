@@ -7,14 +7,14 @@ package zuulframework;
 
 /**
  *
- * @author Mathias
+ * @author jonas
  */
 
 public class start{
     public static void main(String[] args){
-        //make an object of the game - which we can use in the other files we are going to make
+        //make an object of the game
         Game g = new Game();
-        //start the game - Here we start the game variable "g" which is our game.
+        //start the game
         g.play();
     }
 }
